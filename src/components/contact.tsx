@@ -29,15 +29,11 @@ const Contact = () => {
       position: relative;
         width: 100%;
         height: 100vh;
-      
+      overflow: hidden;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      
-      @media(min-width: 1024px) {
-        overflow: hidden;
-      }
     `;
 
     const ParagraphStyled = styled.p`
