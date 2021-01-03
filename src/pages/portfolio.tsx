@@ -63,6 +63,8 @@ const BackArrowIcon = styled.i`
 const SubjectStyled = styled.h2`
   text-align: center;
   margin: 20px;
+  color: #242424;
+  font-weight: 500;
   
   @media(min-width: 1024px) {
     font-size: 40px;

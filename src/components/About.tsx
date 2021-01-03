@@ -44,21 +44,22 @@ const About = () => {
         font-size: 40px;
         width: 50%;
         align-self: flex-start;
-        margin-top: 200px;
+        margin-top: 100px;
       }
     `;
 
     const ImageStyle = styled(Img)`
-    
-      width: 70%;
+
+      position: absolute;
+      width: 60%;
+      margin-bottom: 20px;
       align-self: flex-end;
       transform: rotate(30deg);
-      position: relative;
+      z-index: -999;
       
       @media (min-width: 1024px) {
         width: 500px;
-        height: 500px;
-        margin-top: -300px;
+        margin-top: -350px;
       }
       
     `;
@@ -66,8 +67,8 @@ const About = () => {
     const ButtonStyle = styled.button`
       font-family: "Teko",sans-serif;
       font-size: 20px;
-      font-weight: 500;
-      width: 100px;
+      font-weight: 400;
+      width: 150px;
       background: transparent;
       border-radius: 25px;
       border: 3px solid #242424;
@@ -95,7 +96,6 @@ const About = () => {
       @media(min-width: 1024px) {
         font-size: 40px;
         width: 400px;
-        padding: 10px;
         margin-left: 40px;
       }
     `;

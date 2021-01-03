@@ -37,11 +37,13 @@ const Hero = () => {
     
         color: #ffffff;
         font-family: "Teko",sans-serif;
+      font-size: 30px;
       
       @media(min-width: 1024px) {
         font-size: 100px;
         align-self: flex-start;
         margin-left: 40px;
+        font-weight: 600;
       }
         
     `;

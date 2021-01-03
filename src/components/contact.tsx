@@ -42,7 +42,7 @@ const Contact = () => {
       font-size: 25px;
       color: #242424;
       margin-bottom: 60px;
-
+      text-align: center;
       @media(min-width: 1024px) {
         font-size: 40px;
       }
@@ -53,6 +53,7 @@ const Contact = () => {
       align-self: flex-start;
       transform: rotate(-60deg);
       position: relative;
+      z-index: -999;
 
       @media (min-width: 1024px) {
         width: 500px;
@@ -69,7 +70,7 @@ const Contact = () => {
       transform: rotate(30deg);
       top: 12%;
       left: 1%;
-      z-index: -1;
+      z-index: -9999;
 
       @media(min-width: 1024px) {
         width: 500px;

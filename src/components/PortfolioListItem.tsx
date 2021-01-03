@@ -67,10 +67,11 @@ const ButtonStyle = styled.button`
       }
     `;
 
-const TextStyled = styled.p`
-  font-family: "Teko",sans-serif;
+const TextStyled = styled.h2`
+  text-align: center;
   font-size: 30px;
   font-weight: 500;
+  color: #242424;
   
 `
 
