@@ -124,7 +124,7 @@ const About = () => {
                 Add some color to your life I'm Zuzanna young artist and clothes painter with crazy vision
                 I would like to present you my previous works to give you an opportunity to paint you closet
             </ParagraphStyled>
-            <ButtonStyle as={Link} to='/portfolio'>Zajrzyj do portfolio</ButtonStyle>
+            <ButtonStyle as={Link} to='/portfolio'>Look at portfolio</ButtonStyle>
             <ImageStyle fluid={data.file.childImageSharp.fluid}/>
         </ContainerStyled>
     )
